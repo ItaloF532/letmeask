@@ -1,12 +1,11 @@
-import { Home } from './pages/Home';
-
+import { Routes } from './Routes';
 import './services/firebase';
 
 import './styles/global.scss';
 
 function App() {
   return (
-    <Home />
+    <Routes />  
   );
 }
 
