@@ -1,11 +1,15 @@
+import { AuthenticationContext } from './AuthenticationContext';
 import { Routes } from './Routes';
-import './services/firebase';
 
 import './styles/global.scss';
 
+
+
 function App() {
   return (
-    <Routes />  
+    <AuthenticationContext>
+      <Routes /> 
+    </AuthenticationContext>   
   );
 }
 
